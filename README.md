@@ -6,7 +6,11 @@ Ce projet met en place une infrastructure complète de supervision en utilisant 
 
 ## 🖼️ Aperçu du Tableau de Bord (Screenshots)
 
-### 1. 🖥️ Infrastructure Monitoring (Node Exporter)
+### 1. 🖥️ Infrastructure Monitoring (Node Exporter),📝 Centralisation des Logs (Loki & Promtail)
+Grâce à **Loki** et **Promtail**, tous les logs des containers Docker sont collectés de manière automatique.
+- **Promtail** : Agit comme un agent qui lit les logs des containers Docker sur l'hôte.
+- **Loki** : Stocke et indexe ces logs pour une recherche rapide.
+- **Avantage** : Plus besoin de faire `docker logs [container_name]`, tout est visible et filtrable directement sur Grafana.
 Surveillance complète du serveur Linux : Utilisation du **CPU**, **Mémoire RAM**, et espace **Disque**.
 <img width="959" height="487" alt="node_exporter" src="https://github.com/user-attachments/assets/0ace6385-6bf2-4a47-96de-700ee4c9e9fa" />
 
