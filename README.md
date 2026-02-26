@@ -1,4 +1,3 @@
-<img width="959" height="487" alt="node_exporter" src="https://github.com/user-attachments/assets/ed91da03-0f2c-417e-8296-fbf6702edfaa" /># 📊 Comprehensive Monitoring & Observability Stack
 
 ## 📝 Description du Projet
 Ce projet met en place une infrastructure complète de supervision en utilisant la stack **Prometheus & Grafana**. L'objectif est de centraliser les métriques de performance, les logs et la disponibilité des services dans une interface unique, avec un système d'alerte proactif.
